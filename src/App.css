@@ -1,0 +1,50 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(12, 94, 149);
+}
+
+.heading{
+  text-transform: uppercase;
+  font-size: 35px;
+  color: aliceblue;
+
+}
+.input{
+  display: flex;
+  width: 70%;
+  position: relative;
+
+}
+.input-box{
+  width: 100%;
+  border-radius: 50px;
+  font-size: 25px;
+  padding: 20px 30px;
+  border: none;
+}
+
+.input-submit{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(12, 94, 149);
+  right: 0px;
+  margin: 10px 20px;
+  border-radius: 25px;
+  color: aliceblue;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 0 10px black;
+
+}
+
+@media (min-width:800px) {
+  .heading{
+    font-size: 40px;
+  }
+  
+}
